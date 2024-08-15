@@ -1,0 +1,23 @@
+.home-container {
+  background-color: #152850;
+  height: 100vh;
+}
+
+.digital-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 28px;
+  @media (max-width: 768px) {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+.digital-card img {
+  @media (max-width: 768px) {
+    width: 80%;
+  }
+}
